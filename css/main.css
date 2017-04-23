@@ -1,0 +1,114 @@
+body {
+	background-color: #252a34;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+}
+
+	.typo {
+		text-align: center;
+		margin: 50px 0;
+	}
+
+		.typo h1 {
+			font-size: 48px;
+			display: inline-block;
+		}
+
+		.typo h2 {
+			color: #00ccff;
+			font-size: 16px;
+			display: inline-block;
+			position: relative;
+			top: 25px;
+			left: -75px;
+		}
+
+	.wrapper {
+		width: 1040px;
+		margin: 0 auto;
+	}
+
+		.adsbygoogle {
+			margin: 0 auto;
+			display: block !important;
+			overflow: hidden;
+			padding: 20px 0;
+		}
+
+			.search-input {
+				width: 1012px;
+				float: left;
+				margin: 0 4px 6px;
+			}
+
+				.search-input > input {
+					width: 100%;
+					height: 40px;
+					padding: 0 10px;
+					background-color: #2d3340;
+					border: none;
+					border-radius: 3px;
+					font-size: 14px;
+					color: #00ccff;
+				}
+
+				.search-input > input:focus {
+					outline: none;
+					background-color: #303745;
+				}
+
+			.content {
+				clear: both;
+			}
+
+				.content a.crs {
+					background-color: #2d3340;
+					width: 200px;
+					height: 200px;
+					border-radius: 3px;
+					margin: 4px;
+					float: left;
+				}
+
+				.content a:nth-child(odd) {
+					background-color: #303745;
+				}
+
+					.content a img {
+						width: 64px;
+						height: 64px;
+						position: relative;
+						left: 68px;
+						top: 68px;
+					}
+
+				.content-load-more-btn {
+					background-color: #00ccff;
+					color: #fff;
+					text-decoration: none;
+					margin: 15px 0 0;
+					width: 100%;
+					display: inline-block;
+					text-align: center;
+					padding: 10px 0;
+					border-radius: 3px;
+					font-size: 14px;
+
+				}
+
+				.content-load-more-btn:hover {
+					background-color: #00b8e5;
+				}
+
+				a.editor {
+					color: #fff;
+					text-decoration: none;
+					margin: 10px 0;
+					float: right;
+				}
+
+				a.imprint-link {
+					margin: 20px 0;
+				    display: block;
+				    text-align: center;
+				}
